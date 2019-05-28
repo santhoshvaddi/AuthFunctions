@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3646BAC5C71562CDDF6F2DDF /* Pods_FirebaseAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7DAF1CA4470C36BB35DE4 /* Pods_FirebaseAuthentication.framework */; };
 		677022C12295902D00BA805D /* FirebaseAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 677022BF2295902D00BA805D /* FirebaseAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		677022C9229590E000BA805D /* ApplicationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677022C7229590E000BA805D /* ApplicationConstants.swift */; };
 		677022CA229590E000BA805D /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677022C8229590E000BA805D /* TokenService.swift */; };
-		ED0BA4623CA5AEB408B2ED61 /* Pods_FirebaseAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7DAF1CA4470C36BB35DE4 /* Pods_FirebaseAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0BA4623CA5AEB408B2ED61 /* Pods_FirebaseAuthentication.framework in Frameworks */,
+				3646BAC5C71562CDDF6F2DDF /* Pods_FirebaseAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

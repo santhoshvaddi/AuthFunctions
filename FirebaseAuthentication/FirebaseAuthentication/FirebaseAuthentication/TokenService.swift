@@ -18,7 +18,7 @@ import Foundation
 import AuthLibrary
 import Firebase
 
-class TokenService {
+public class TokenService {
 
   static let shared = TokenService()
   static public func authorization(projectID: String, completionHandler: @escaping (String)-> Void) {
@@ -72,6 +72,7 @@ static private func getToken(projectID: String, completionHandler: @escaping (St
     if isExpired() {
       NotificationCenter.default.post(name: NSNotification.Name(ApplicationConstants.retreivingToken), object: nil)
       //this sample uses Firebase Auth signInAnonymously and you can insert any auth signin that they offer.
+      FirebaseApp.configure()
       Auth.auth().signInAnonymously() { (authResult, error) in
         if error != nil {
           //Sign in failed
