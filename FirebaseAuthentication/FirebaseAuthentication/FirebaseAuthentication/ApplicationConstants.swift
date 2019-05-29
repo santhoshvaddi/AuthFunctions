@@ -18,7 +18,7 @@ import Foundation
 
 struct ApplicationConstants {
   // TODO: Replace with your GCP PROJECT_ID
-  static let projectID = "translate@dialogflowsamples-santhosh-2.iam.gserviceaccount.com"
+  static let projectID = "SERVICE-ACCOUNT-NAME@YOUR_PROJECT_ID.iam.gserviceaccount.com"
 
 }
 

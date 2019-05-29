@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "FirebaseAuthentication framework provides one stop solution for the Token creation"
 
-  spec.homepage     = "http://EXAMPLE/FirebaseAuthentication"
+  spec.homepage     = "https://github.com/santhoshvaddi/AuthFunctions"
 
   spec.license      = "Apache"
 
