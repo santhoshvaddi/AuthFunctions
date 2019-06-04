@@ -21,13 +21,18 @@ Pod::Spec.new do |spec|
 
   spec.description  = "FirebaseAuthentication framework provides one stop solution for the Token creation"
 
-  spec.homepage     = "https://github.com/santhoshvaddi/AuthFunctions"
+  spec.homepage     = "https://github.com/santhoshvaddi/AuthFunctions.git"
 
   spec.license      = "Apache"
 
-  spec.author             = { "santhosh vaddi" => "santhosh.vaddi@google.com" }
+  spec.author             = { "santhosh vaddi" => "santhoshvaddi@google.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :path => 'https://github.com/santhoshvaddi/AuthFunctions' }
+  spec.dependency "Firebase/Core"
+  spec.dependency "Firebase/Functions"
+  spec.dependency "Firebase/Auth"
+  spec.dependency "Firebase/Firestore"
+  spec.dependency 'AuthLibrary', "~> 0.3.4"
+  spec.source       = { :path => 'https://github.com/santhoshvaddi/AuthFunctions.git', :tag => '0.0.1'  }
 
 
 
